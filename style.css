@@ -1,18 +1,69 @@
+/* Original styles for the .hidden and .visible classes */
 .hidden {
-    display: none; /* This is the magic line */
+  display: none;
 }
 
-/* We also need a class to show the content */
 .full-content.visible {
-    display: block; /* Or flex, or grid, depending on your layout */
+  display: block;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
 
-.cards{
-    background-color: bisque;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    
-}       
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+  gap: 25px;
+}
+
+.blog-card {
+  background-color: bisque;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  margin-bottom: 15px;
+}
+
+.card-date {
+  font-size: smaller;
+  color: rgb(55, 54, 54);
+  background-color: rgb(218, 191, 157);
+  width: 100px;
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: inline-block; /* Changed from grid */
+  margin-top: 20px; /* Added margin for spacing */
+}
+
+.top-screen {
+  background-color: rgb(206, 170, 125);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 100;
+}

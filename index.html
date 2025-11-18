@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andrews Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="content">
+      <div class="top-screen">
+        <h1>Andrew's Blog</h1>
+        <input type="text" id="search-input" placeholder="Search posts..." />
+      </div>
       <div class="cards">
         <!-- <article class="blog-card" data-post-id="1">
           <header class="card-header">
@@ -27,8 +37,25 @@
           </header>
 
           <div class="full-content hidden">
-            <p>This is the full, detailed blog post content!</p>
-            <p>It can be very long and have images, lists, and more.</p>
+            <p class="card-blog">
+              Welcome to my blog! This is my first post so be free to look
+              around the site!
+            </p>
+            <p class="card-date">11/18/2025</p>
+          </div>
+        </article>
+        <article class="blog-card" data-post-id="1">
+          <header class="card-header">
+            <h2>My first post!</h2>
+            <p class="summary">my first post</p>
+          </header>
+
+          <div class="full-content hidden">
+            <p class="card-blog">
+              Welcome to my blog! This is my first post so be free to look
+              around the site!
+            </p>
+            <p class="card-date"><i>11/18/2025</i></p>
           </div>
         </article>
       </div>
