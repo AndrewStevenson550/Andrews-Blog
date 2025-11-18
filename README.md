@@ -13,11 +13,10 @@ A full-featured blog platform built with [Your Tech Stack, e.g., React, Node.js,
 
 ## Features
 
-- **User Authentication:** Secure user registration and login.
-- **Post Management (CRUD):** Authors can create, read, update, and delete their own posts.
-- **Rich Text Editor:** A WYSIWYG editor for easily creating and formatting posts.
-- **Public Comments:** Registered users can leave comments on posts.
+
 - **Tagging System:** Posts can be organized with tags for easy discovery.
+- **Full-Text Search:** A search bar to find posts by keywords in the title or body.
+- **Code Syntax Highlighting:** Beautifully formatted code blocks for technical articles.
 
 ---
 
