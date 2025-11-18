@@ -1,13 +1,13 @@
 # Andrew's Blog
 
-A full-featured blog platform built with [Your Tech Stack, e.g., React, Node.js, and PostgreSQL]. This project showcases a modern web application with features like user authentication, post management, and a rich text editor.
+A full-featured blog platform built with Html, CSS, and JavaScript. This project showcases a modern web application with features like user authentication, post management, and a rich text editor.
 
-![Screenshot of your blog's homepage](placeholder.png)
+![Screenshot of your blog's homepage](imgs/blog_home.png)
 *Replace placeholder.png with a link to a real screenshot!*
 
 ## Live Demo
 
-[Link to your deployed application]
+https://andrewstevenson550.github.io/Andrews-Blog/
 
 ---
 
